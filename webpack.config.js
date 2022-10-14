@@ -11,6 +11,7 @@ module.exports = {
     resolve: { // extensión de archivos a tomar en cuenta
         extensions: ['.js', '.jsx']
     },
+    mode: 'development',
     module: { // loaders para cada tipo de archivo
         rules: [ // reglas para usar
             {
